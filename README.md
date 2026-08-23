@@ -2,6 +2,10 @@
 
 A Python desktop application that helps online resellers calculate and track profit from individual sales.
 
+## Screenshot
+
+![Reseller Profit Analyzer application](screenshot.png)
+
 ## Features
 
 - Calculates platform fees
