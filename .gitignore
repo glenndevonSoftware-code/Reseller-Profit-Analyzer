@@ -1,2 +1,5 @@
 sales_history.csv
 __pycache__/
+build/
+dist/
+*.spec

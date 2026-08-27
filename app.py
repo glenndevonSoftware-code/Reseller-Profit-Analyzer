@@ -3,7 +3,10 @@ from tkinter import ttk, messagebox
 import csv
 from pathlib import Path
 
-sales_file = Path(__file__).with_name("sales_history.csv")
+data_folder = Path.home() / "Documents" / "ResellerProfitAnalyzer"
+data_folder.mkdir(parents=True, exist_ok=True)
+sales_file = data_folder / "sales_history.csv"
+
 current_sale = None
 
 def calculate_profit():
